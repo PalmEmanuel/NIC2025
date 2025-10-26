@@ -1,0 +1,10 @@
+{
+  " 1 - KeyVaults": {
+    "prefix": " 1 - KeyVaults",
+    "body": [
+      "resources",
+      "| where type == 'microsoft.keyvault/vaults' and name contains 'kv'"
+    ],
+    "description": " 1 - KeyVaults"
+  }
+}

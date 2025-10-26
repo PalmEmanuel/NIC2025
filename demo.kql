@@ -1,0 +1,22 @@
+resources
+| where type == 'microsoft.keyvault/vaults'
+        and name contains 'kv'
+        and not(tags['env'] == 'prod')
+
+// Case sensitivity ^
+// in, _cs & =~
+
+// 2
+// VM with NIC join
+
+// 3
+// Regex
+
+// --- Tips & tricks ---
+
+// Default table
+
+// Hidden properties
+
+// Shared queries
+
