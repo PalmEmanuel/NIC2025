@@ -1,16 +1,15 @@
-resources
-| where type == 'microsoft.keyvault/vaults'
-        and name contains 'kv'
-        and not(tags['env'] == 'prod')
+// KeyVaults
 
 // Case sensitivity ^
 // in, _cs & =~
 
-// 2
-// VM with NIC join
+// Detailed role assignments for workload identities
 
-// 3
-// Regex
+// Regex to find assignments on subscriptions
+
+// See permissions of roles
+
+// VM with NIC join
 
 // --- Tips & tricks ---
 
@@ -19,4 +18,3 @@ resources
 // Hidden properties
 
 // Shared queries
-

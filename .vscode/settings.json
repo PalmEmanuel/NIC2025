@@ -2,7 +2,13 @@
     "editor.parameterHints.enabled": true,
     "editor.inlineSuggest.enabled": true,
     "editor.lightbulb.enabled": "onCode",
-    "github.copilot.enable": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "kql": false
+    },
     "editor.hover.enabled": true,
     "editor.suggest.showWords": true,
     "editor.suggest.showSnippets": true,
