@@ -2,7 +2,7 @@
 
 Slides and notes for NIC Rebel Edition in Oslo, 2025.
 
-Demos use [StageCoder](https://marketplace.visualstudio.com/items?itemName=EngstromJimmy.stagecoderVSCode).
+Demos used the Visual Studio Code Extension [bARGE - boosted Azure Resource Graph Explorer](https://marketplace.visualstudio.com/items?itemName=PalmEmanuel.barge-vscode), and [StageCoder](https://marketplace.visualstudio.com/items?itemName=EngstromJimmy.stagecoderVSCode).
 
 ## Treasure Hunting in Azure with KQL as Your Map
 
